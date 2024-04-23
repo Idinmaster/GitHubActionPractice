@@ -1,5 +1,5 @@
-const { dayOfTheWeek } = require('/app.js');
-const { monthOfTheYear } = require('/app.js');
+const { dayOfTheWeek } = require('./app');
+const { monthOfTheYear } = require('./app');
 
 
 test('getDay returns the long-format day of the week', () => {
